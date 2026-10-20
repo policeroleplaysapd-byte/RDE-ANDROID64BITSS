@@ -8,7 +8,6 @@ add_library(
     main.cpp
 )
 
-# Forzamos a que el archivo generado se llame exactamente rde_ai.so (sin el prefijo "lib")
 set_target_properties(rde_ai PROPERTIES PREFIX "")
 
 find_library(
